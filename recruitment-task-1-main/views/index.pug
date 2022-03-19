@@ -1,0 +1,94 @@
+extends layouts/main.pug
+
+block content
+  include layouts/mixins.pug
+  - var prefix = '.' //'https://www.ros.net.pl/Portals/0/rich-content/Loreal/3600531324544';
+
+  .cts-body
+    img.std-img(src='./img/logo.png' alt="")
+    .cts-header
+      p.cts-head-p bambi OVERSIZED EYE<br>MASKARA 
+      .cts-header-container
+        .cts-header-elem
+          p.cts-sec-p Przenieś spojrzenie Bambi w nowy wymiar!
+          p.cts-desc-p Rzęsy jak u Bambi jeszcze bardziej spektakularne? Zobacz tę bajkę w innym wymiarze na własnych oczach! Gotowa na rzęsy w wersji oversize z nową maskarą Bambi?
+        .cts-header-elem
+          ul.cts-header-list
+            li Długość i objętość XXL
+            li Rzęsy z efektem oversize 
+            li Elastyczna szczoteczka
+            li Elastyczna formuła 
+      img.std-img(src='./img/header.png' alt="")
+    .cts-header-section
+      p.cts-header-p PRZYGOTUJ SIĘ NA JESZCZE WIĘKSZE WRAŻENIE
+      p.cts-header-desc Duże, większe, a może jeszcze większe? Lubisz robić wrażenie? Nowa maskara Bambi Oversized Eye została stworzona tak, abyś mogła osiągnąć efekt oversize bez wysiłku. 
+    .cts-section-img-3
+      .cts-img
+        img.std-img(src="./img/prod1.png" alt="")
+        p.cts-img-p Długość i objętość XXL bez grudek, sklejania i kruszenia.
+      .cts-img
+        img.std-img(src="./img/prod2.png" alt="")
+        p.cts-img-p Efekt oversize już po pierwszej aplikacji.
+      .cts-img
+        img.std-img(src="./img/prod3.png" alt="")
+        p.cts-img-p Silikonowa szczoteczka o stożkowym kształcie z wypustkami różnej długości  rozdziela i pogrubia rzęsy. 
+    .cts-header-section
+      p.cts-header-p JAK OSIĄGNĄĆ SPOJRZENIE BAMBI W WERSJI OVERSIZE?
+      p.cts-header-desc POZNAJ TRIKI AGI WILK
+    .cts-aga-section
+      img.std-img(src="./img/person.png" alt="aga wilk")
+      .cts-aga-desc 
+        p.cts-aga-p <img src="./img/quote.png" alt='"'>&nbsp;&nbsp;&nbsp;&nbsp; Od jakiegoś czasu słyszałam, że szykuje się kolejny hit od L’Oréal Paris. Bambi Oversized Eye powtarza sukces innych maskar z tej serii. Kto raz przetestuje – przepadnie. To Wam mogę obiecać<img src="./img/quote.png" alt='"'>
+        p.cts-name-ital Aga Wilk
+        p.cts-sub-name OFICJALNA MAKIJAŻYSTKA L’OREAL PARIS
+    .cts-tips 
+      img.std-img(src="./img/tips.png" alt="tips & tricks")
+    .cts-three-list-sect
+      .cts-three-list-elem
+        .cts-three-header PRACA NAD EFEKTEM
+        p.cts-three-desc Jedno pociągnięcie dla bardziej naturalnego, 2-3 dla widowiskowego efektu.<br>Ty decydujesz!
+      .cts-three-list-elem
+        .cts-three-header WĘŻSZA KOŃCÓWKA 
+        p.cts-three-desc Wykorzystaj węższą końcówkę i&nbsp;elastyczność szczoteczki maskary, by dotrzeć nawet do najkrótszych rzęs w&nbsp;wewnętrznym i&nbsp;zewnętrznym kąciku oka.
+      .cts-three-list-elem
+        .cts-three-header PION I POZIOM
+        p.cts-three-desc Aplikacja tuszu szczoteczką trzymaną pionowo ułatwi malowanie dolnych rzęs. Trik sprawi, że będą one bardziej pogrubione. 
+
+    .cts-header-section
+      p.cts-header-p GET-THE-BAMBI-LOOK
+      p.cts-header-desc Sprawdź, co oprócz maskary potrzebujesz, by wykreować Bambi look!
+    .cts-list-section
+      .cts-elem
+        img.std-img(src="./img/getlook.png" alt="")
+      .cts-elem
+        p.cts-title CIESZ SIĘ DŁUGOTRWAŁYM MAKIJAŻEM BEZ OGRANICZEŃ
+        p.cts-desc Makijaż w stylu Bambi zachwyci cię nie tylko swoją nową odsłoną w wersji oversize, ale też długotrwałością. 
+    .cts-products-list
+      .cts-product
+        .cts-title PODKŁAD
+        img.std-img(src="./img/get_prod1.png" alt="")
+        .cts-desc INFALLIBLE 24H<br>FRESH WEAR z lekką oddychającą formułą
+      .cts-product
+        .cts-title (Więcej niż) KOREKTOR
+        img.std-img(src="./img/get_prod2.png" alt="")
+        .cts-desc Długotrwały<br>INFALLIBLE MORE<br>THAN CONCEALER
+      .cts-product
+        .cts-title EYELINER
+        img.std-img(src="./img/get_prod3.png" alt="")
+        .cts-desc Odporny<br>na rozmazywanie<br>MATTE SIGNATURE<br>z matowym wykończeniem
+      .cts-product
+        .cts-title ŻEL DO BRWI
+        img.std-img(src="./img/get_prod4.png" alt="")
+        .cts-desc UNBELIEVA'BROW<br>z długotrwałą,<br>wodoodporną<br>formułą
+
+
+    .cts-header-section.margin-top
+      p.cts-header-p MODA NA OVERSIZE TRWA!
+      p.cts-header-desc Jeśli kochasz styl oversize, to jest twoja bajka! 
+    .cts-poster 
+      iframe(id="ytplayer" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/nq6dDLQ2Qmc" frameborder="0")
+      //- img.std-img(src="./img/poster.png" alt="")
+
+
+
+

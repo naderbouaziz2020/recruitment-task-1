@@ -1,0 +1,20 @@
+import '../img/eye1.png';
+import '../img/eye2.png';
+import '../img/eye3.png';
+import '../img/eye4.png';
+import '../img/header.png';
+import '../img/logo.png';
+import '../img/person.png';
+import '../img/prod_bg.png';
+import '../img/poster.png';
+import '../img/prod1.png';
+import '../img/prod2.png';
+import '../img/prod3.png';
+import '../img/quote.png';
+import '../img/tips.png';
+
+import '../img/getlook.png';
+import '../img/get_prod1.png';
+import '../img/get_prod2.png';
+import '../img/get_prod3.png';
+import '../img/get_prod4.png';
